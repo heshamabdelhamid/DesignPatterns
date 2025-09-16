@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeforSingleton", "Singleton
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotThreadSafe", "Singleton\NotThreadSafe\NotThreadSafe.csproj", "{D061DD57-DABA-05EF-3A2B-F4D5D9969B27}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonLazyLoading", "Singleton\SingletonLazyLoading\SingletonLazyLoading.csproj", "{7237485B-8A31-0211-2E68-50F298B37C62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadSafeUsingDoubkeCheckedLock", "Singleton\ThreadSafeUsingDoubkeCheckedLock\ThreadSafeUsingDoubkeCheckedLock.csproj", "{AD514A19-3B7E-68F7-6009-430DCCB00998}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,14 @@ Global
 		{D061DD57-DABA-05EF-3A2B-F4D5D9969B27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D061DD57-DABA-05EF-3A2B-F4D5D9969B27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D061DD57-DABA-05EF-3A2B-F4D5D9969B27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7237485B-8A31-0211-2E68-50F298B37C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7237485B-8A31-0211-2E68-50F298B37C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7237485B-8A31-0211-2E68-50F298B37C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7237485B-8A31-0211-2E68-50F298B37C62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD514A19-3B7E-68F7-6009-430DCCB00998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD514A19-3B7E-68F7-6009-430DCCB00998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD514A19-3B7E-68F7-6009-430DCCB00998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD514A19-3B7E-68F7-6009-430DCCB00998}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +42,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A820393A-72F8-7E38-DFD7-51DCB3D37572} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{D061DD57-DABA-05EF-3A2B-F4D5D9969B27} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{7237485B-8A31-0211-2E68-50F298B37C62} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{AD514A19-3B7E-68F7-6009-430DCCB00998} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B1C64C60-00FF-4F0C-8836-8BD6B664FD07}
