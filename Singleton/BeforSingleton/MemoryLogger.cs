@@ -1,5 +1,5 @@
 ﻿
-namespace Singleton.Problem;
+namespace Singleton.BeforSingleton;
 
 public class MemoryLogger
 {
