@@ -1,10 +1,9 @@
-﻿using Singleton.Start;
-
-namespace Singleton;
+﻿
+namespace Singleton.Problem;
 
 public class Program
 {
-    
+
     static MemoryLogger? logger;
 
     static void Main(string[] args)

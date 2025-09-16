@@ -1,4 +1,5 @@
-﻿namespace Singleton.Start;
+﻿
+namespace Singleton.Problem;
 
 public enum LogType
 {
